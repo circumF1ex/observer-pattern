@@ -41,12 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="ConcreteObserver.cs" />
-    <Compile Include="ConcreteSubject.cs" />
+    <Compile Include="CurrentConditionsDisplay.cs" />
+    <Compile Include="ForeCastDisplay.cs" />
+    <Compile Include="ThirdPartyDisplay.cs" />
+    <Compile Include="StatisticsDisplay.cs" />
+    <Compile Include="WeatherData.cs" />
+    <Compile Include="IDisplayElement.cs" />
     <Compile Include="IObserver.cs" />
     <Compile Include="ISubject.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="UML_Observer.diag.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

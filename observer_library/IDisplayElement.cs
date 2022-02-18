@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace observer_library
+namespace observer_lib
 {
-    public class Class1
+    public interface IDisplayElement
     {
+        string display();
     }
 }
